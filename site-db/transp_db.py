@@ -69,7 +69,7 @@ def manager_panel(user_id_for_homepage):
 	if request.method == 'DELETE':
 		new_quest = ''
 		MemberID = ''
-
+		print(1)
 		new_member_nick = ''
 		new_member_discord = ''
 		new_member_rank = ''
