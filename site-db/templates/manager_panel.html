@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MRKEEPteam - Панель управления</title>
+	<link rel="stylesheet" type="text/css", href="{{ url_for( 'static', filename='manager_panel.css') }}">
+	<link rel="icon" type="image/x-icon" href="{{ url_for( 'static', filename='favicon.ico' ) }}">
+</head>
+<body>
+	<header>
+		<h1>ПАНЕЛЬ УПРАВЛЕНИЯ ПРОЕКТОМ</h1>
+	</header>
+
+	<div class="quests_panel">
+		Установить участнику задачу:<br>
+		<form action="" method="post">
+			<p>
+				<label for="MemberID">Ник участника</label>
+			    <input type="text" name="MemberID">
+			</p>
+			<p>
+				<label for="new_quest">Присвоить задание:</label>
+			    <textarea name="new_quest" class="new_quest"></textarea>
+			</p>
+			<input type="submit" value="Присвоить" class="new_quest_btn">
+		</form>
+	</div>
+	<div class="new_member">
+		Добавить участника
+		<form action="" method="post">
+			<p>
+				<label for="new_member_nick">Ник участника</label>
+				<input type="text" name="new_member_nick">
+			</p>
+			<p>
+				<label for="new_member_discord">Discord участника</label>
+				<input type="text" name="new_member_discord">
+			</p>
+			<p>
+				<label for="new_member_rank">Должность участника</label>
+				<input type="text" name="new_member_rank">
+			</p>
+			<p>
+				<label for="new_member_login">Login участника</label>
+				<input type="text" name="new_member_login">
+			</p>
+			<p>
+				<label for="new_member_password">Пароль участника</label>
+				<input type="text" name="new_member_password">
+			</p>
+			<input type="submit" value="Добавить" class="new_quest_btn">
+		</form>
+	</div>
+	<div class="del_member">
+		Отстранить участника
+		<form action="" method="delete">
+			<p>
+				<label for="del_member_nick">Ник участника</label>
+				<input type="text" name="del_member_nick">
+			</p>
+			<input type="submit" value="Отстранить" class="new_quest_btn">
+		</form>
+	</div>
+	<div class="change_percent">
+		Изменить процентную ставку участнику
+		<form action="" method="post">
+			<p>
+				<label for="change_percent_name">Ник участника</label>
+				<input type="text" name="change_percent_name">
+			</p>
+			<p>
+				<label for="change_percent_value">Новая ставка</label>
+				<input type="text" name="change_percent_value">
+			</p>
+			<input type="submit" value="Применить" class="new_quest_btn">
+		</form>
+	</div>
+</body>
+</html>

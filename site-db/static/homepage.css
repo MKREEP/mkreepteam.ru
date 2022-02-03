@@ -1,0 +1,55 @@
+body {background-color: #343434; font-family: "Arial"; color: #fff;}
+.header {color: #fff; font-family: monospace; font-size: 24px;
+	height: 30px; width: 700px; top: 0; right: 0; left: 0; margin: auto;/*центрирование*/}
+.InfoMenu {
+	height: 200px; width: 400px;
+	border: 2px solid; border-radius: 10px;
+	margin-top: 100px;
+	position: absolute;
+	line-height: 30px;
+}
+.Quests
+{
+	position: absolute;
+	width: 300px; height: 400px;
+	border: #fff 2px solid; border-radius: 10px;
+	right: 0;
+	margin-top: 100px;
+	text-align: center;
+}
+.color_yellow
+{
+	color: #FFE600;
+}
+.color_green
+{
+	color: #41FF51;
+}
+
+.main_NickName
+{
+	position: absolute;
+	width: 600px; height: 200px;
+	left: 0; right: 0;
+	text-align: center;
+	margin: auto; margin-top: 300px;
+	font-size: 40px;
+}
+
+.send_files
+{
+	text-decoration: none;
+	color: #41FF51;
+	background: #000;
+	position: absolute;
+	border: 2px solid;
+	height: 50px; width: 200px;
+	cursor: pointer;
+	border-radius: 5px;
+	right: 0;
+	margin-top: 550px;
+}
+.send_files:hover
+{
+	background: #033;
+}

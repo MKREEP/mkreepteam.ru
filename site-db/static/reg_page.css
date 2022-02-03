@@ -1,0 +1,9 @@
+body{color: #000; font-family: monospace; background-color: #fff; background-image: url('back.png'); background-size: 100%; background-repeat: no-repeat;}
+.mainTitle{height: 30px; width: 500px; margin: auto;}
+.doubleTitle{text-align: center;}
+.personalInfo{height: 350px; width: 300px; text-align: center; margin: auto;/*центрирование*/
+border: 0px solid; border-radius: 15px; /*контуринг*/
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); margin-top: 100px; background: #fff;}
+.submitBtn{border: 2px solid; border-radius: 10px; background: #001; height: 22px; width: 200px; color: #fff; cursor: pointer;}
+.rightPpl{position: fixed; right: 0; margin-right: 50px;}
+.leftPpl{position: fixed; left: 0;}

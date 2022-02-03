@@ -1,0 +1,67 @@
+body{font-family: monospace; color: #fff; background: #134;}
+header{margin: auto; height: 50px; width: 750px; text-align: center;}
+
+.quests_panel
+{
+	border: 2px solid;
+	border-radius: 30px;
+	height: 500px;
+	width: 600px;
+	text-align: center;
+}
+
+.new_quest
+{
+	height: 350px;
+	width: 400px;
+}
+.new_quest_btn
+{
+	height: 30px;
+	width: 150px;
+	border: 2px solid;
+	border-radius: 10px;
+	background: #033;
+	color: #fff;
+	cursor: pointer;
+}.new_quest_btn:hover{
+	background: #000;
+}
+
+.new_member
+{
+	width: 200px;
+	height: 320px;
+	border: 2px solid;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: -500px;
+	color: #46FF53;
+	padding-left: 10px;
+}
+
+.del_member
+{
+	width: 200px;
+	height: 150px;
+	border: 2px solid;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 10px;
+	color: #FF3333;
+	padding-left: 10px;
+}
+
+.change_percent
+{
+	width: 200px;
+	height: 180px;
+	border: 2px solid;
+	border-radius: 10px;
+	right: 0;
+	position: absolute;
+	margin-top: -450px;
+	margin-right: 50px;
+	color: #FFFC2E;
+	padding-left: 10px;
+}

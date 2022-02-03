@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MKREEPteam - Панель</title>
+	<link rel="stylesheet" type="text/css", href="{{ url_for( 'static', filename='homepage.css') }}">
+	<link rel="icon" type="image/x-icon" href="{{ url_for( 'static', filename='favicon.ico' ) }}">
+</head>
+<body>
+	<div class="header">
+		Личный кабинет участника команды проекта "MK-3"
+	</div>
+	<div class="main_NickName">
+		Nickname: <div class="color_yellow">{{ member_NickName }}</div> <br>
+	</div>
+	<div class="InfoMenu">
+		<h3>Ваши данные:</h3>
+		Discord: <span class="color_yellow">{{ member_Discord }}</span> <br>
+		Процентная ставка: <span class="color_yellow">{{ member_percent }}</span><br>
+		Занимаемая должность: <span class="color_yellow">{{ member_Rank }}</span>
+	</div>
+	<div class="Quests">
+		Ваши задачи: <br>
+		<div class="color_green">
+			{{ member_Quests }}
+		</div>
+	</div>
+	<div>
+		<a href="https://drive.google.com/drive/folders/1bkiMa_voWy_wdQRzuOYx9ZdUCDjSl-Sq?usp=sharing"><button class="send_files">Отправить работу</button></a>
+	</div>
+</body>
+</html>

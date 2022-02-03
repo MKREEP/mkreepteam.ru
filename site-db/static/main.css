@@ -1,0 +1,9 @@
+.input
+{
+	border-radius: 10px; border: 2px solid; border-color: #fff; padding: 10px; /*обводка*/
+	height: 120px; width: 300px; /*размеры окна авторизации*/
+	right: 0; left: 0; margin: auto; margin-top: 200px; /*центрирование*/
+}
+body {background-color: #011; color: white; font-family: monospace;}
+.btn {border: 2px solid; border-radius: 10px; background: #001; height: 22px; width: 200px; color: #fff; cursor: pointer;}
+.main_title{color: #FFF; font-family: monospace; font-size: 29px; height: 20px; width: 500px; right: 0; left: 0; margin: auto; margin-top: 100px;}
